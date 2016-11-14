@@ -29,23 +29,23 @@
                      <div>  <fieldset>
                            <legend>General Info</legend>
                         <label for="email">Email</label>
-                        <input id="email" type="email" name="email" placeholder="your email@com">
+                        <input id="email" type="email" name="email" placeholder="your email@com" required>
                         <br />
                          <label for="login">Login</label>
-                        <input id="login" type="text" name="login" placeholder="Login">
+                        <input id="login" type="text" name="login" placeholder="Login" pattern="^[A-Za-z1-3]+$" required>
                         <br />
                          <label for="password">Password</label>
-                        <input id="password" type="password" name="login" placeholder="Password">
+                        <input id="password" type="password" name="login" placeholder="Password" required>
                        </fieldset>
                     </div>
                     <div>
                         <fieldset>
                            <legend>User Info</legend>
                         <label for="name">First Name</label>
-                        <input id="name" type="text" name="name" placeholder="John">
+                        <input id="name" type="text" name="name" placeholder="John" pattern="^[A-Za-z]+$" required>
                         <br />
                          <label for="surname">Second Name</label>
-                        <input id="surname" type="text" name="surname" placeholder="Doe">
+                        <input id="surname" type="text" name="surname" placeholder="Doe" pattern="^[A-Za-z]+$" required>
                         <br />
                          <label for="gender">Gender</label>
                          Male
